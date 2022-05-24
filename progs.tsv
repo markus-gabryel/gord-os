@@ -1,0 +1,29 @@
+zsh	The zoomer shell
+ssh	Remote access tools
+curl	WGET's best friend
+entr	File monitoring tool
+exa	Colored LS
+lolcat	Rainbow CAT
+xclip	Clipboard tool
+make	Build tool
+git	The stupid content tracker
+apt-transport-https	APT https support
+python-is-python3	Just a python3 alias
+python3-pip	Python modules package manager
+nodejs	Node runtime
+npm	Node package manager
+gcc	GNU compiler
+texlive-full	Entire Latex
+flameshot	PrintScreen tool
+pulsemixer	CLI volume mixer
+cmatrix	Matrix screen saver for the terminal
+neovim	VIM but newer
+tmux	Terminal splitter
+zathura	A simple VIM based PDF viewer
+sxiv	An image viewer (VIM style)
+godot3	Godot game engine
+krita	Furry's Photoshop
+picom	X compositor
+polybar	Lazy status bar
+bspwm	Tree based tiling window manager
+sxhkd	Simple X Hotkey Daemon... Literally
