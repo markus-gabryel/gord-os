@@ -5,8 +5,14 @@ entr	File monitoring tool
 exa	Colored LS
 lolcat	Rainbow CAT
 xclip	Clipboard tool
+ffmpeg	Video editing for chads
+youtube-dl	Youtube video downloader
 make	Build tool
 git	The stupid content tracker
+libx11-dev	X11 programs build dependency
+libxft-dev	X11 programs build dependency
+libharfbuzz-dev	X11 programs build dependency
+libxinerama-dev	X11 programs build dependency
 apt-transport-https	APT https support
 python-is-python3	Just a python3 alias
 python3-pip	Python modules package manager

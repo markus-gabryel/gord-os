@@ -35,6 +35,10 @@ echo "deb [arch=amd64] https://download.mono-project.com/repo/ubuntu stable-foca
 sudo apt update
 sudo apt install -y mono-devel
 
+# Unity Hub
+mkdir -p ~/.local/bin
+wget 'https://public-cdn.cloud.unity3d.com/hub/prod/UnityHub.AppImage' -O ~/.local/bin/unityhub
+
 # ------------------------------------------------------------------------------
 
 # Remove/disable software I don't use
