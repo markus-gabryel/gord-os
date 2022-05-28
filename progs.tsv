@@ -7,6 +7,9 @@ lolcat	Rainbow CAT
 xclip	Clipboard tool
 ffmpeg	Video editing for chads
 youtube-dl	Youtube video downloader
+adb	Android control tool
+scrcpy	Mirror the cellphone screen
+obs-studio	Bloated recording tool
 make	Build tool
 autoconf	Build build tool
 git	The stupid content tracker
