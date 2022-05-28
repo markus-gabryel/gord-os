@@ -4,6 +4,7 @@ curl	WGET's best friend
 entr	File monitoring tool
 exa	Colored LS
 lolcat	Rainbow CAT
+figlet	Text increaser
 xclip	Clipboard tool
 ffmpeg	Video editing for chads
 youtube-dl	Youtube video downloader
@@ -13,6 +14,7 @@ obs-studio	Bloated recording tool
 make	Build tool
 autoconf	Build build tool
 git	The stupid content tracker
+mono-complete	Unity Engine dependency
 libx11-dev	X11 programs build dependency
 libxft-dev	X11 programs build dependency
 libharfbuzz-dev	X11 programs build dependency

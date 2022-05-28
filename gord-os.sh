@@ -42,6 +42,10 @@ mkdir -p ~/.local/bin
 wget 'https://public-cdn.cloud.unity3d.com/hub/prod/UnityHub.AppImage' -O ~/.local/bin/unityhub
 chmod +x ~/.local/bin/unityhub
 
+# Old LIBSSL (Unity dependency)
+wget 'http://security.ubuntu.com/ubuntu/pool/main/o/openssl1.0/libssl1.0.0_1.0.2n-1ubuntu5.9_amd64.deb' -O /tmp/libssl1.deb
+sudo apt install -y /tmp/libssl1.deb
+
 # ------------------------------------------------------------------------------
 
 # Install some advanced (or just weird) tool...
