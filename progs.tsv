@@ -31,6 +31,7 @@ gcc	GNU compiler
 texlive-full	Entire Latex
 flameshot	PrintScreen tool
 pulsemixer	CLI volume mixer
+htop	Topper TOP
 cmatrix	Matrix screen saver for the terminal
 neovim	VIM but newer
 tmux	Terminal splitter
@@ -38,6 +39,7 @@ zathura	A simple VIM based PDF viewer
 sxiv	An image viewer (VIM style)
 godot3	Godot game engine
 krita	Furry's Photoshop
+xwallpaper	Set the X wallpaper (bruh)
 picom	X compositor
 polybar	Lazy status bar
 bspwm	Tree based tiling window manager

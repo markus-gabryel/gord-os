@@ -59,6 +59,26 @@ sudo make install
 # No login manger needed, I believe in TTY supremacy
 sudo systemctl set-default multi-user
 
-# TODO get DWM, DMENU, ST
+# Set the time language to English
+sudo localectl set-locale LC_TIME=en_US.utf8
+
+# Get my DWM
+git clone https://github.com/markus-gabryel/dwm /tmp/dwm
+cd /tmp/dwm
+sudo make clean install
+cd ~
+
+# Get the default DMENU
+git clone https://git.suckless.org/dmenu /tmp/dmenu
+cd /tmp/dmenu
+sudo make clean install
+cd ~
+
+# Get "my ST" (Luke Smith fork)
+git clone https://github.com/markus-gabryel/st /tmp/st
+cd /tmp/st
+sudo make clean install
+cd ~
+
 # TODO load my dotfiles
 
