@@ -48,37 +48,52 @@ sudo apt install -y /tmp/libssl1.deb
 
 # ------------------------------------------------------------------------------
 
-# Install some advanced (or just weird) tool...
+# Install some advanced (or just weird) tools...
+
+cd /tmp
 
 # Patched libxft (get colored emojis in Suckless tools)
 git clone https://github.com/uditkarode/libxft-bgra
 cd libxft-bgra
 sh autogen.sh --sysconfdir=/etc --prefix=/usr --mandir=/usr/share/man
 sudo make install
+cd ..
+
+# Pulseaudio CLI mixer (very scriptable)
+git clone https://github.com/cdemoulins/pamixer
+cd pamixer
+meson setup build
+meson compile -C build
+sudo meson install -C build
+cd ..
+
+# Get my DWM
+git clone https://github.com/markus-gabryel/dwm
+cd dwm
+sudo make clean install
+cd ..
+
+# Get the default DMENU
+git clone https://git.suckless.org/dmenu
+cd dmenu
+sudo make clean install
+cd ..
+
+# Get "my ST" (Luke Smith fork but with other colors)
+git clone https://github.com/markus-gabryel/st
+cd st
+sudo make clean install
+cd ..
+
+# ------------------------------------------------------------------------------
+
+# Finally...
 
 # No login manger needed, I believe in TTY supremacy
 sudo systemctl set-default multi-user
 
 # Set the time language to English
 sudo localectl set-locale LC_TIME=en_US.utf8
-
-# Get my DWM
-git clone https://github.com/markus-gabryel/dwm /tmp/dwm
-cd /tmp/dwm
-sudo make clean install
-cd ~
-
-# Get the default DMENU
-git clone https://git.suckless.org/dmenu /tmp/dmenu
-cd /tmp/dmenu
-sudo make clean install
-cd ~
-
-# Get "my ST" (Luke Smith fork)
-git clone https://github.com/markus-gabryel/st /tmp/st
-cd /tmp/st
-sudo make clean install
-cd ~
 
 # TODO load my dotfiles
 

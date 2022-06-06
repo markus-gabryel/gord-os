@@ -3,8 +3,10 @@ ssh	Remote access tools
 curl	WGET's best friend
 entr	File monitoring tool
 exa	Colored LS
+ncal	Simple calendar tool
 lolcat	Rainbow CAT
 figlet	Text increaser
+tty-clock	Clock screen saver for the terminal
 xclip	Clipboard tool
 ffmpeg	Video editing for chads
 youtube-dl	Youtube video downloader
@@ -12,6 +14,7 @@ adb	Android control tool
 scrcpy	Mirror the cellphone screen
 obs-studio	Bloated recording tool
 make	Build tool
+meson	Another build tool
 autoconf	Build build tool
 git	The stupid content tracker
 mono-complete	Unity Engine dependency
@@ -22,6 +25,8 @@ libxinerama-dev	X11 programs build dependency
 xutils-dev	X11 programs build dependency
 libtool	Library support tool (= dependency)
 libfuse2	Needed to execute AppImages
+libpulse-dev	Needed to play around with Pulse (pamixer dependency)
+libcxxopts-dev	C++ parser library (pamixer dependency)
 apt-transport-https	APT https support
 python-is-python3	Just a python3 alias
 python3-pip	Python modules package manager
@@ -35,6 +40,7 @@ htop	Topper TOP
 cmatrix	Matrix screen saver for the terminal
 neovim	VIM but newer
 tmux	Terminal splitter
+screenkey	Key pressing visualizer
 zathura	A simple VIM based PDF viewer
 sxiv	An image viewer (VIM style)
 godot3	Godot game engine
