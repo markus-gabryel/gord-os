@@ -3,6 +3,7 @@ ssh	Remote access tools
 curl	WGET's best friend
 entr	File monitoring tool
 exa	Colored LS
+tree	Directories as trees
 ncal	Simple calendar tool
 lolcat	Rainbow CAT
 figlet	Text increaser
@@ -38,6 +39,7 @@ flameshot	PrintScreen tool
 pulsemixer	CLI volume mixer
 htop	Topper TOP
 cmatrix	Matrix screen saver for the terminal
+cava	Sound visualizer
 neovim	VIM but newer
 tmux	Terminal splitter
 screenkey	Key pressing visualizer

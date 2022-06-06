@@ -85,6 +85,8 @@ cd st
 sudo make clean install
 cd ..
 
+cd
+
 # ------------------------------------------------------------------------------
 
 # Finally...
@@ -95,5 +97,15 @@ sudo systemctl set-default multi-user
 # Set the time language to English
 sudo localectl set-locale LC_TIME=en_US.utf8
 
-# TODO load my dotfiles
+# Replace bash with ZSH
+sudo chsh -s /bin/zsh "$USER"
+rm .profile .bash*
+mkdir -p ~/.cache/zsh/
+
+# Apply my dotfiles
+cd /tmp
+git clone https://github.com/markus-gabryel/dotfiles
+cp -RT dotfiles ~
+
+echo EVERYTHING IS FINISHED
 
