@@ -99,7 +99,7 @@ sudo localectl set-locale LC_TIME=en_US.utf8
 
 # Replace bash with ZSH
 sudo chsh -s /bin/zsh "$USER"
-rm .profile .bash*
+rm ~/.profile ~/.bash*
 mkdir -p ~/.cache/zsh/
 
 # Apply my dotfiles

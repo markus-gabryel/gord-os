@@ -1,4 +1,5 @@
 zsh	The zoomer shell
+zsh-syntax-highlighting	Zoomer shell highlighting
 ssh	Remote access tools
 curl	WGET's best friend
 entr	File monitoring tool
@@ -11,6 +12,7 @@ tty-clock	Clock screen saver for the terminal
 xclip	Clipboard tool
 ffmpeg	Video editing for chads
 youtube-dl	Youtube video downloader
+fzf	CLI fuzzy finder
 adb	Android control tool
 scrcpy	Mirror the cellphone screen
 obs-studio	Bloated recording tool
