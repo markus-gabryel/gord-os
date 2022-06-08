@@ -26,6 +26,8 @@ libxft-dev	X11 programs build dependency
 libharfbuzz-dev	X11 programs build dependency
 libxinerama-dev	X11 programs build dependency
 xutils-dev	X11 programs build dependency
+libxrender-dev	X rendering extension lib (= dependency)
+libfontconfig-dev	Font config lib (= another random dependency)
 libtool	Library support tool (= dependency)
 libfuse2	Needed to execute AppImages
 libpulse-dev	Needed to play around with Pulse (pamixer dependency)
