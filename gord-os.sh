@@ -85,6 +85,18 @@ cd st
 sudo make clean install
 cd ..
 
+# Get the F****** Fast File manager (or just FFF)
+git clone https://github.com/dylanaraps/pfetch
+cd fff
+sudo make install
+cd ..
+
+# Get the "pocket neofetch"
+git clone https://github.com/dylanaraps/pfetch
+cd pfetch
+sudo make install
+cd ..
+
 cd
 
 # ------------------------------------------------------------------------------
