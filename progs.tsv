@@ -16,6 +16,8 @@ fzf	CLI fuzzy finder
 adb	Android control tool
 scrcpy	Mirror the cellphone screen
 obs-studio	Bloated recording tool
+mpv	Chad media player
+cmus	Terminal based music player
 make	Build tool
 meson	Another build tool
 autoconf	Build build tool
