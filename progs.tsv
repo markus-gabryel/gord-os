@@ -8,7 +8,6 @@ tree	Directories as trees
 ncal	Simple calendar tool
 lolcat	Rainbow CAT
 figlet	Text increaser
-tty-clock	Clock screen saver for the terminal
 xclip	Clipboard tool
 ffmpeg	Video editing for chads
 youtube-dl	Youtube video downloader
@@ -45,6 +44,7 @@ flameshot	PrintScreen tool
 pulsemixer	CLI volume mixer
 htop	Topper TOP
 cmatrix	Matrix screen saver for the terminal
+tty-clock	Clock screen saver for the terminal
 cava	Sound visualizer
 neovim	VIM but newer
 tmux	Terminal splitter
@@ -55,6 +55,3 @@ godot3	Godot game engine
 krita	Furry's Photoshop
 xwallpaper	Set the X wallpaper (bruh)
 picom	X compositor
-polybar	Lazy status bar
-bspwm	Tree based tiling window manager
-sxhkd	Simple X Hotkey Daemon... Literally

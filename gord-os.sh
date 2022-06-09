@@ -56,8 +56,9 @@ cd /tmp
 git clone https://github.com/uditkarode/libxft-bgra
 cd libxft-bgra
 sh autogen.sh --sysconfdir=/etc --prefix=/usr --mandir=/usr/share/man
+sudo dpkg -r --force-depends libxft2 libxft-dev
+sudo sed -i 's/libxft2 (.. \S*)[\,][ ]//g' /var/lib/dpkg/status
 sudo make install
-sudo apt remove libxft2
 cd ..
 
 # Pulseaudio CLI mixer (very scriptable)
