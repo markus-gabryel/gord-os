@@ -8,10 +8,13 @@ tree	Directories as trees
 ncal	Simple calendar tool
 lolcat	Rainbow CAT
 figlet	Text increaser
+cowsai	Talking COW
 xclip	Clipboard tool
 ffmpeg	Video editing for chads
-youtube-dl	Youtube video downloader
+yt-dlp	Youtube video downloader
 fzf	CLI fuzzy finder
+jq	JSON processor
+xdotool	X11 controller
 adb	Android control tool
 scrcpy	Mirror the cellphone screen
 obs-studio	Bloated recording tool
@@ -40,11 +43,13 @@ nodejs	Node runtime
 npm	Node package manager
 gcc	GNU compiler
 texlive-full	Entire Latex
+pandoc	General markup converter
 flameshot	PrintScreen tool
 pulsemixer	CLI volume mixer
 htop	Topper TOP
 cmatrix	Matrix screen saver for the terminal
 tty-clock	Clock screen saver for the terminal
+cbonsai	Bonsai generator for the terminal
 cava	Sound visualizer
 neovim	VIM but newer
 tmux	Terminal splitter
